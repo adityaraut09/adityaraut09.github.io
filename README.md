@@ -19,30 +19,28 @@ npm run preview  # preview the production build
 - Framer Motion (page transitions, scroll reveals, animated nav pill)
 - Google Fonts: Fraunces (serif) + Inter (sans)
 
-## Deploy to GitHub Pages (adityaraut.github.io)
+## Deploy to GitHub Pages (project page)
 
 This repo ships with a GitHub Actions workflow (`.github/workflows/deploy.yml`)
 that builds the site and deploys it automatically on every push to `main`.
 
-1. Create a **public** repo named exactly `adityaraut.github.io` under Aditya's
-   GitHub account (leave it empty — no README).
+1. Create a **public** repo named `aditya-portfolio` on GitHub (leave it empty —
+   no README).
 2. From this folder, push the code:
 
    ```bash
-   git init
-   git add .
-   git commit -m "Initial portfolio"
-   git branch -M main
-   git remote add origin https://github.com/adityaraut/adityaraut.github.io.git
+   git remote set-url origin https://github.com/sathvikloke/aditya-portfolio.git
    git push -u origin main
    ```
 3. In the repo on GitHub: **Settings → Pages → Build and deployment →
    Source: GitHub Actions**.
 4. The workflow runs automatically; when it finishes (green check in the
-   **Actions** tab), the site is live at **https://adityaraut.github.io**.
+   **Actions** tab), the site is live at
+   **https://sathvikloke.github.io/aditya-portfolio/**.
 
-`base: './'` in `vite.config.js` keeps asset paths relative, and HashRouter
-means routes like `/#/research` work with no server-side config.
+`base: './'` in `vite.config.js` keeps asset paths relative (so it works from
+the `/aditya-portfolio/` subpath), and HashRouter means routes like
+`/#/research` work with no server-side config.
 
 ## Colors
 
