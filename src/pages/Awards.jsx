@@ -13,7 +13,7 @@ const ventures = [
     body: [<>Founded and run a weekly chess program for elementary and middle school students, empowering <strong>400+ students</strong> and continuing.</>, <>Manage enrollment, coordinate with YMCA staff, and deliver structured mentorship individually.</>] },
   { org: 'NVChess+ Tutoring Organization', role: ' — Founder', date: 'Jan 2024 – Present', meta: 'Self-Employed · Naperville, IL',
     body: [<>Provide one-on-one tutoring in chess strategy and academic subjects with personalized lesson plans.</>, <>Established a dedicated 1-on-1 instruction framework for highly personalized learning.</>] },
-  { org: 'LaunchPad', role: ' — Founder', date: 'Ongoing', meta: 'Career exploration · Naperville, IL',
+  { org: 'LaunchPad', role: ' — Co-Founder', date: 'Ongoing', meta: 'Career exploration · Naperville, IL',
     body: [<>Free multi-week career exploration program for grades 2–8, run by high schoolers.</>] },
   { org: 'Freelance Web & Marketing', role: '', date: 'Ongoing', meta: 'Self-Employed · Naperville, IL',
     body: [<>Build HTML/CSS websites from scratch for local businesses.</>] },
