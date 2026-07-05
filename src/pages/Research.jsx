@@ -4,7 +4,7 @@ import { Page, Reveal, stagger, item } from '../components/Motion.jsx'
 const entries = [
   {
     org: 'Purdue University',
-    orgUrl: 'https://engineering.purdue.edu/CCE/People/ptProfile?resource_id=46402',
+    orgUrl: 'https://engineering.purdue.edu/CCE',
     role: ' — Research Intern',
     date: 'Jun 2026 – Present',
     meta: 'Concrete 3D Printing Team · Lyles School of Civil & Construction Eng. · West Lafayette, IN',
@@ -15,7 +15,7 @@ const entries = [
   },
   {
     org: 'Univ. of Tennessee at Chattanooga',
-    orgUrl: 'https://blog.utc.edu/reetesh-ranjan/',
+    orgUrl: 'https://www.utc.edu/college-of-engineering-and-computer-science',
     role: ' — Research Intern',
     date: 'Jun 2026 – Present',
     meta: 'Combustion & Propulsion Research Group · Remote',
