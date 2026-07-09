@@ -9,7 +9,7 @@ const entries = [
     date: 'Jun 2026 – Present',
     meta: 'Concrete 3D Printing Team · Lyles School of Civil & Construction Eng. · West Lafayette, IN',
     body: [
-      <>Joined <a href="https://engineering.purdue.edu/CCE/People/ptProfile?resource_id=46402" target="_blank" rel="noopener noreferrer" style={{color: 'inherit', fontWeight: 600, textDecoration: 'none', borderBottom: '1px solid currentColor'}}>Dr. Pablo Zavattieri's</a> group on 3D-printing sinusoidal Bouligand structures — layered patterns inspired by naturally tough materials such as mantis shrimp claws.</>,
+      <>Work in the Architected Materials group on 3D-printing sinusoidal Bouligand structures — layered patterns inspired by naturally tough materials such as mantis shrimp claws.</>,
       <>Assist with calibrating the team's concrete 3D printer and support specimen printing for ongoing experimental research.</>,
     ],
   },
@@ -20,7 +20,7 @@ const entries = [
     date: 'Jun 2026 – Present',
     meta: 'Combustion & Propulsion Research Group · Remote',
     body: [
-      <>Selected by <a href="https://blog.utc.edu/reetesh-ranjan/" target="_blank" rel="noopener noreferrer" style={{color: 'inherit', fontWeight: 600, textDecoration: 'none', borderBottom: '1px solid currentColor'}}>Dr. Reetesh Ranjan</a> after independently developing a thermodynamic comparison of rotating detonation engines.</>,
+      <>Selected after independently developing a thermodynamic comparison of rotating detonation engines.</>,
       <>Working toward a <strong>joint publication</strong>, contributing thermodynamic cycle analysis of pressure-gain combustion to the group's broader RDE research.</>,
     ],
   },
