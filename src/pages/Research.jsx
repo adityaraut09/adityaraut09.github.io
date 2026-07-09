@@ -9,8 +9,8 @@ const entries = [
     date: 'Jun 2026 – Present',
     meta: 'Concrete 3D Printing Team · Lyles School of Civil & Construction Eng. · West Lafayette, IN',
     body: [
-      <>Work in the Architected Materials group on 3D-printing sinusoidal Bouligand structures — layered patterns inspired by naturally tough materials such as mantis shrimp claws.</>,
-      <>Assist with calibrating the team's concrete 3D printer and support specimen printing for ongoing experimental research.</>,
+      <>Work in the Architected Materials group on 3D-printing <strong>sinusoidal Bouligand structures</strong> — layered patterns inspired by naturally tough materials such as the mantis shrimp claw.</>,
+      <>Calibrate the team's concrete 3D printer and produce specimens for ongoing <strong>fracture experiments</strong>.</>,
     ],
   },
   {
@@ -20,8 +20,8 @@ const entries = [
     date: 'Jun 2026 – Present',
     meta: 'Combustion & Propulsion Research Group · Remote',
     body: [
-      <>Selected after independently developing a thermodynamic comparison of rotating detonation engines.</>,
-      <>Working toward a <strong>joint publication</strong>, contributing thermodynamic cycle analysis of pressure-gain combustion to the group's broader RDE research.</>,
+      <>Recruited after independently building a thermodynamic comparison of <strong>rotating detonation engines</strong>.</>,
+      <>Contribute pressure-gain cycle analysis toward a <strong>joint publication</strong> within the group's broader RDE research.</>,
     ],
   },
   {
@@ -30,8 +30,8 @@ const entries = [
     date: 'Sep 2025 – Present',
     meta: 'Self-Directed · Naperville, IL',
     body: [
-      <>Researching the thermodynamic efficiency advantages of rotating detonation engines over conventional propulsion systems.</>,
-      <>Developing cycle models to quantify pressure-gain efficiency gains; <strong>manuscript in progress</strong> for a pre-collegiate research journal.</>,
+      <>Investigate the thermodynamic efficiency of rotating detonation engines against conventional <strong>Brayton-cycle</strong> propulsion systems.</>,
+      <>Build cycle models using <a href="https://cantera.org/" target="_blank" rel="noopener noreferrer" style={{color: 'inherit', fontWeight: 600, borderBottom: '1px solid currentColor'}}>Cantera</a> and <a href="https://shepherd.caltech.edu/EDL/PublicResources/sdt/" target="_blank" rel="noopener noreferrer" style={{color: 'inherit', fontWeight: 600, borderBottom: '1px solid currentColor'}}>SDToolbox</a> to quantify pressure-gain efficiency; <strong>manuscript in progress</strong> for a pre-collegiate research journal.</>,
     ],
   },
 ]
