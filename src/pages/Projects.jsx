@@ -8,7 +8,7 @@ const projects = [
     tagline: 'ACL injury-risk screening from a single phone video',
     url: 'https://landeracl.com',
     role: 'Full-Stack Engineer',
-    body: 'Screens athletes for ACL injury risk from one phone video of a jump landing — no lab, no wearables, just a camera. A fatigue-aware model turns a 15-second clip into an actionable risk read.',
+    body: <>Screens athletes for <strong>ACL injury risk</strong> from one phone video of a jump landing — no lab, no wearables, just a camera. A <strong>fatigue-aware computer vision model</strong> turns a 15-second clip into an actionable risk score.</>,
     tags: ['Computer vision', 'Sports medicine', 'Full-stack'],
   },
   {
@@ -16,7 +16,7 @@ const projects = [
     tagline: "See what the record isn't telling you",
     url: 'https://vivantal.com',
     role: 'Developer · Equity-Audit & Data',
-    body: 'Record-intelligence for healthcare that surfaces the open loops in patient charts — missed follow-ups, incomplete referrals, unmonitored medications — and audits whether follow-up is equitable across patient groups. Built the equity-audit engine, significance testing, and data schema.',
+    body: <>Record-intelligence for healthcare that surfaces open loops in patient charts — missed follow-ups, incomplete referrals, unmonitored medications — and audits whether care is <strong>equitable across patient groups</strong>. Built the <strong>equity-audit engine</strong>, significance testing, and data schema from scratch.</>,
     tags: ['Health equity', 'Statistics', 'In-browser engine'],
   },
 ]
@@ -28,7 +28,7 @@ export default function Projects() {
         <motion.div initial={{ opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}>
           <div className="eyebrow">§ 04 — Projects</div>
           <h1>Projects</h1>
-          <p>Two products I help build — one in sports medicine, one in clinical safety.
+          <p>Two products I helped build — one in <strong>sports medicine</strong>, one in <strong>clinical safety</strong>.
             Each card links straight to the live site.</p>
         </motion.div>
       </header>
