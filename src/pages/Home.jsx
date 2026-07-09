@@ -4,10 +4,10 @@ import { Page, Reveal, stagger, item } from '../components/Motion.jsx'
 import { Mail, LinkedIn, Phone, Arrow } from '../components/Icons.jsx'
 
 const cards = [
-  { tag: 'Research', title: 'University research groups', body: "Research intern at Purdue's concrete 3D-printing lab and UT Chattanooga's combustion & propulsion group, with a joint RDE publication in progress." },
-  { tag: 'Rocketry', title: 'Nationally qualified', body: 'Designed and built rockets on a nationally competitive team, qualifying for the national competition in May 2026.' },
-  { tag: 'Leadership', title: '400+ students mentored', body: 'Founded a weekly YMCA chess program and a 1-on-1 tutoring organization serving hundreds of students.' },
-  { tag: 'Education', title: 'Neuqua Valley HS', body: 'Naperville, IL · Class of 2028. Coursework in AP CS A, honors math, biology, chemistry, and engineering.' },
+  { tag: 'Research', title: 'University research groups', body: <>Research intern at <a href="https://engineering.purdue.edu/CCE" target="_blank" rel="noopener noreferrer" style={{color: 'inherit', fontWeight: 700, borderBottom: '1px solid currentColor'}}>Purdue's</a> concrete 3D-printing lab and <a href="https://www.utc.edu/college-of-engineering-and-computer-science" target="_blank" rel="noopener noreferrer" style={{color: 'inherit', fontWeight: 700, borderBottom: '1px solid currentColor'}}>UT Chattanooga's</a> combustion &amp; propulsion group, with a <strong>joint RDE publication</strong> in progress.</> },
+  { tag: 'Rocketry', title: 'Nationally qualified', body: <>Designed and built rockets on a <strong>nationally competitive</strong> team, qualifying for the national competition in May 2026.</> },
+  { tag: 'Leadership', title: '400+ students mentored', body: <>Founded a weekly YMCA chess program and a 1-on-1 tutoring organization serving <strong>400+</strong> students.</> },
+  { tag: 'Education', title: 'Neuqua Valley HS', body: <>Naperville, IL · Class of 2028. Coursework in <strong>AP CS A</strong>, honors math, biology, chemistry, and engineering.</> },
 ]
 
 export default function Home() {
@@ -21,9 +21,9 @@ export default function Home() {
             Aerospace Propulsion <span>/</span> Computational Research <span>/</span> Additive Manufacturing
           </div>
           <p className="lede">
-            High school researcher advancing pressure-gain combustion — from independent
-            thermodynamic cycle modeling to joint publications with university research groups,
-            and hands-on concrete 3D printing at a top civil engineering lab.
+            High school researcher focused on <strong>pressure-gain combustion</strong> — from independent
+            thermodynamic cycle modeling to <strong>joint publications</strong> with university research groups,
+            and hands-on concrete 3D printing at a <strong>top civil engineering lab</strong>.
           </p>
 
           <div className="contact">
@@ -40,11 +40,11 @@ export default function Home() {
         </Reveal>
         <Reveal>
           <p style={{ fontSize: '1.1rem', color: 'var(--ink-soft)', maxWidth: 680, margin: '0 0 4px' }}>
-            My work sits at the intersection of propulsion physics and computation. I build
+            My work sits at the intersection of <strong style={{ color: 'var(--maroon)' }}>propulsion physics</strong> and computation. I build
             thermodynamic cycle models to quantify why{' '}
             <strong style={{ color: 'var(--maroon)' }}>rotating detonation engines</strong>{' '}
             can outperform conventional propulsion, and I bring that same curiosity to
-            bio-inspired additive manufacturing in the lab.
+            <strong style={{ color: 'var(--maroon)' }}> bio-inspired additive manufacturing</strong> in the lab.
           </p>
           <div className="chips" style={{ marginTop: 22 }}>
             {['Pressure-gain combustion', 'Rotating detonation engines', 'Bio-inspired additive manufacturing', 'Computational propulsion modeling'].map((c) => (
