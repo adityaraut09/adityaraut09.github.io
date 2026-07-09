@@ -2,19 +2,18 @@ import { motion } from 'framer-motion'
 import { Page, Reveal, stagger, item } from '../components/Motion.jsx'
 
 const awards = [
-  { tag: 'Rocketry · National', title: 'Rocket ARC Team — Nationally Qualified', when: '2025 – Present', body: 'Designed and built rockets on a nationally competitive rocketry team; qualified for the national competition in May 2026.' },
-  { tag: 'Chess · State', title: 'Varsity Chess Team — Neuqua Valley HS', when: '2025 – Present', body: 'Won Sectionals (Jan 2025) and placed 5th at the Illinois State Championship (Feb 2026); qualified for Super Nationals (May 2025).' },
-  { tag: 'Cricket · Regional', title: 'State U16 Cricket Team — Illinois', when: '2024 – Present', body: 'Competed on the IL U16 regional cricket team in 2024 and 2025; qualified for national-level competition both years.' },
-  { tag: 'Focus', title: 'Core strengths', when: 'Across every role', body: 'Research leadership · problem solving · public speaking · curriculum design · teaching & mentorship.' },
+  { tag: 'Rocketry · National', title: 'Rocket ARC Team — Nationally Qualified', when: '2025 – Present', body: <>Designed and built rockets on a <strong>nationally competitive</strong> rocketry team; qualified for the <strong>national competition</strong> in May 2026.</> },
+  { tag: 'Chess · State', title: 'Varsity Chess Team — Neuqua Valley HS', when: '2025 – Present', body: <>Won <strong>Sectionals</strong> (Jan 2025) and placed <strong>5th at the Illinois State Championship</strong> (Feb 2026); qualified for <strong>Super Nationals</strong> (May 2025).</> },
+  { tag: 'Cricket · Regional', title: 'State U16 Cricket Team — Illinois', when: '2024 – Present', body: <>Competed on the IL U16 regional cricket team in 2024 and 2025; <strong>qualified for national-level competition</strong> both years.</> },
 ]
 
 const ventures = [
   { org: 'Neuqua Valley × YMCA Chess Camp', role: ' — Founder', date: 'Jan 2024 – Present', meta: 'YMCA · Naperville, IL',
-    body: [<>Founded and run a weekly chess program for elementary and middle school students, empowering <strong>400+ students</strong> and continuing.</>, <>Manage enrollment, coordinate with YMCA staff, and deliver structured mentorship individually.</>] },
+    body: [<>Founded and run a weekly chess program that has reached <strong>400+ elementary and middle school students</strong>.</>, <>Handle enrollment, coordinate with YMCA staff, and coach students one-on-one.</>] },
   { org: 'NVChess+ Tutoring Organization', role: ' — Founder', date: 'Jan 2024 – Present', meta: 'Self-Employed · Naperville, IL',
-    body: [<>Provide one-on-one tutoring in chess strategy and academic subjects with personalized lesson plans.</>, <>Established a dedicated 1-on-1 instruction framework for highly personalized learning.</>] },
+    body: [<>Tutor students one-on-one in chess strategy and core academic subjects with custom lesson plans.</>, <>Built a repeatable 1-on-1 lesson framework that adapts to each student's level.</>] },
   { org: 'LaunchPad', role: ' — Co-Founder', date: 'Ongoing', meta: 'Career exploration · Naperville, IL',
-    body: [<>Free multi-week career exploration program for grades 2–8, run by high schoolers.</>] },
+    body: [<>Free multi-week <strong>career exploration program</strong> for grades 2–8, run by high schoolers.</>] },
   { org: 'Freelance Web & Marketing', role: '', date: 'Ongoing', meta: 'Self-Employed · Naperville, IL',
     body: [<>Build HTML/CSS websites from scratch for local businesses.</>] },
 ]
@@ -27,7 +26,7 @@ export default function Awards() {
           <div className="eyebrow">§ 03 — Leadership & Activities</div>
           <h1>Awards & Leadership</h1>
           <p>Nationally competitive rocketry and chess, regional cricket, and founded programs
-            that have reached hundreds of students.</p>
+            that have reached <strong>hundreds of students</strong>.</p>
         </motion.div>
       </header>
 
@@ -74,7 +73,7 @@ export default function Awards() {
             <div className="card">
               <h3>Interests</h3>
               <div className="chips">
-                <span className="chip">Machine Learning</span><span className="chip">AI</span>
+                <span className="chip">Chess</span><span className="chip">Cricket</span>
                 <span className="chip">Aerospace</span><span className="chip">Stock Investing</span>
               </div>
             </div>
